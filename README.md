@@ -1,26 +1,19 @@
 # NMR_Quantum_Simulation
 
-This repository contains a set of small NMR simulation projects based on purification and Trotterized time evolution. The work originated from the HQS Quantum Simulations Use Case Competition (2025), where our team received 2nd place, and was later extended with additional simulations and hardware runs on the IQM Emerald quantum processor.
-
-The aim is to illustrate how a mixed NMR initial state can be embedded into a purified state, evolved under a two-spin Hamiltonian, and analyzed through both classical and quantum computational techniques.
+This repository contains a set of small NMR simulation projects based on purification and Trotterized time evolution. The work originated from the HQS Quantum Simulations Use Case Competition (2025), where our team received 2nd place with the simulations and hardware runs on the IQM Emerald quantum processor.
 
 ---
 
 ## Overview
 
-This project is organized into three main components:
+This project is organized into two main components:
 
-- **Classical simulation:**  
-  A reference computation of purified two-spin NMR dynamics using Trotterized time evolution.
+- **Classical (HQS Tools) and Qiskit simulations:**  
+  A reference computation of purified two-spin and five-spin NMR dynamics using Trotterized time evolution.
 
 - **IQM hardware runs:**  
   Two notebooks executed on the *IQM Emerald* quantum computer, including a two-spin case and an extended purification structure for a multi-spin (5-spin) model.
-
-- **Main summary notebook:**  
-  A cleaned and annotated notebook that consolidates the results and provides a clear explanation of the methods used.
-
-This structure allows direct comparison between classical simulations, hardware executions, and the numerical tests performed during the HQS use case.
-
+  
 ---
 
 ## Methods
